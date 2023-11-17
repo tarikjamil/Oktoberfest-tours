@@ -9,3 +9,11 @@
 .navbar.is--scrolled .navbar_bg {
   opacity: 1;
 }
+
+.splide__track {
+  overflow: visible;
+}
+
+.splide__slide {
+  align-self: stretch;
+}
