@@ -17,3 +17,13 @@
 .splide__slide {
   align-self: stretch;
 }
+
+@media screen and (max-width: 991px) {
+  .richtext a {
+    color: var(--milky);
+  }
+
+  .padding-modified {
+    padding-bottom: 0rem;
+  }
+}
