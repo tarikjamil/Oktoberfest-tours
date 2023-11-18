@@ -41,3 +41,28 @@ $(document).ready(function () {
     }
   });
 });
+
+function adjustPadding() {
+  document.querySelectorAll(".is--grid-2els").forEach(function (el) {
+    if (el.parentElement.classList.contains("padding")) {
+      el.parentElement.classList.add("padding-modified");
+    } else {
+      el.parentElement.classList.remove("padding-modified");
+    }
+  });
+}
+
+// Run on page load
+adjustPadding();
+
+// Run on window resize
+window.addEventListener("resize", function () {
+  if (window.innerWidth <= 991) {
+    adjustPadding();
+  } else {
+    // Remove the class if the screen is wider than 991px
+    document.querySelectorAll(".padding-modified").forEach(function (el) {
+      el.classList.remove("padding-modified");
+    });
+  }
+});
