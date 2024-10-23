@@ -34,6 +34,10 @@
   row-gap: 16rem;
 }
 
+.hbspt-form label {
+  font-size: 16rem;
+}
+
 .hbspt-form .hs-input {
   font-size: 16rem;
   width: 100%;
@@ -45,8 +49,4 @@
   background-color: #e0e9eb;
   height: 48rem;
   border-radius: 4rem;
-}
-
-.hbspt-form label {
-  font-size: 16rem;
 }
