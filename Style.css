@@ -38,10 +38,10 @@
   width: 100%;
   border-width: 1px;
   border-style: solid;
-  border-color: var(--bricks-color-wganbm);
-  color: var(--bricks-color-bxgphm);
+  border-color: #e0e9eb;
+  color: #000000;
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #e0e9eb;
   height: 48rem;
   border-radius: 4rem;
 }
