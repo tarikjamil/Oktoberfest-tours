@@ -30,7 +30,8 @@
 
 .hbspt-form form {
   display: flex;
-  column-gap: 16rem;
+  flex-direction: column;
+  row-gap: 16rem;
 }
 
 .hbspt-form .hs-input {
