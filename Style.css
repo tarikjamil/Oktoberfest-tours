@@ -28,6 +28,11 @@
   }
 }
 
+.hbspt-form form {
+  display: flex;
+  column-gap: 16rem;
+}
+
 .hbspt-form .hs-input {
   font-size: 16rem;
   width: 100%;
