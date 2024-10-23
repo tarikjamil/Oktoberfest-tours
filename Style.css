@@ -27,3 +27,20 @@
     padding-bottom: 0rem;
   }
 }
+
+.hbspt-form .hs-form-field {
+  font-size: 16rem;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--bricks-color-wganbm);
+  color: var(--bricks-color-bxgphm);
+  font-weight: 500;
+  background-color: #ffffff;
+  height: 48rem;
+  border-radius: 4rem;
+}
+
+.hbspt-form label {
+  font-size: 16rem;
+}
