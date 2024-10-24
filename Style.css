@@ -36,6 +36,7 @@
 
 .hbspt-form label {
   font-size: 16rem;
+  display: none;
 }
 
 .hbspt-form .hs-input {
@@ -77,4 +78,5 @@
   padding-left: 0rem;
   margin-bottom: 4rem;
   padding-top: 4rem;
+  display: block;
 }
