@@ -67,10 +67,8 @@
   text-transform: uppercase;
   cursor: pointer;
   background-color: #0000;
-  border-radius: 300rem;
-  padding: 16rem 40rem;
-  font-family: ode, sans-serif;
-  font-size: 20rem;
+  padding: 20rem 40rem;
+  font-size: 14rem;
   font-weight: 700;
   line-height: 1;
   transition: all 0.2s;
