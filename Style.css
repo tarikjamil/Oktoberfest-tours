@@ -53,6 +53,10 @@
   padding-right: 10rem;
 }
 
+.hbspt-form textarea.hs-input {
+  height: 100rem;
+}
+
 .hbspt-form .hs-button {
   border: 1px solid var(--white);
   letter-spacing: 0.02em;
