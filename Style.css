@@ -49,6 +49,8 @@
   background-color: #e0e9eb;
   height: 48rem;
   border-radius: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .hbspt-form .hs-button {
