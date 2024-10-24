@@ -81,3 +81,13 @@
   padding-top: 4rem;
   display: block;
 }
+
+.bestof--.bestof--link img {
+  position: absolute;
+  transition: transform 0.3s ease; /* Smooth scaling animation */
+  transform: scale(1); /* Default scale */
+}
+
+.bestof--link:hover img {
+  transform: scale(1.1); /* Scale image on hover */
+}
