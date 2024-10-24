@@ -82,7 +82,7 @@
   display: block;
 }
 
-.bestof--.bestof--link img {
+.bestof--link img {
   position: absolute;
   transition: transform 0.3s ease; /* Smooth scaling animation */
   transform: scale(1); /* Default scale */
