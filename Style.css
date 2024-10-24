@@ -72,3 +72,9 @@
   transition: all 0.2s;
   color: var(--white);
 }
+
+.hbspt-form .inputs-list {
+  padding-left: 0rem;
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+}
