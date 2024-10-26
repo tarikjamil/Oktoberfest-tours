@@ -1,0 +1,93 @@
+.main-wrapper {
+  opacity: 0;
+}
+
+.navbar .navbar_bg {
+  opacity: 0;
+}
+
+.navbar.is--scrolled .navbar_bg {
+  opacity: 1;
+}
+
+.splide__track {
+  overflow: visible;
+}
+
+.splide__slide {
+  align-self: stretch;
+}
+
+@media screen and (max-width: 991px) {
+  .backgroundblue .richtext a {
+    color: var(--milky);
+  }
+
+  .padding-modified {
+    padding-bottom: 0rem;
+  }
+}
+
+.hbspt-form form {
+  display: flex;
+  row-gap: 16rem;
+  flex-direction: column;
+}
+
+.hbspt-form label {
+  font-size: 16rem;
+  display: none;
+}
+
+.hbspt-form .hs-input {
+  font-size: 16rem;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e0e9eb;
+  color: #000000;
+  font-weight: 500;
+  background-color: #e0e9eb;
+  height: 48rem;
+  border-radius: 4rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  font-weight: 400;
+}
+
+.hbspt-form textarea.hs-input {
+  height: 100rem;
+}
+
+.hbspt-form .hs-button {
+  border: 1px solid var(--white);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #0000;
+  padding: 20rem 40rem;
+  font-size: 14rem;
+  font-weight: 700;
+  line-height: 1;
+  transition: all 0.2s;
+  color: var(--white);
+}
+
+.hbspt-form .inputs-list {
+  padding-left: 0rem;
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+  display: block;
+}
+
+.bestof--link img {
+  position: absolute;
+  transition: transform 0.3s ease; /* Smooth scaling animation */
+  transform: scale(1); /* Default scale */
+}
+
+.bestof--link:hover img {
+  transform: scale(1.1); /* Scale image on hover */
+}
